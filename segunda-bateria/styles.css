@@ -1,25 +1,137 @@
 * {
-    /* Não altere nada aqui dentro */
-    font-family: "Poppins", sans-serif;
+  /* Não altere nada aqui dentro */
+  font-family: "Poppins", sans-serif;
 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-    /* Não altere nada aqui dentro */
-    height: 100vh;
-    width: 100%;
+  /* Não altere nada aqui dentro */
+  height: 100vh;
+  width: 100%;
+
+  position: relative;
+
+  background: var(--black);
+
+  display: flex;
+  padding: 48px;
 }
 
 :root {
-    /* Não altere nada aqui dentro */
-    --red: #A00000;
-    --blue: #0021D1;
-    --white: #FFFFFF;
-    --black: #030406;
+  /* Não altere nada aqui dentro */
+  --red: #a00000;
+  --blue: #0021d1;
+  --white: #ffffff;
+  --black: #030406;
 }
 
+.red-ball {
+  height: 480dvh;
+  width: 480px;
+
+  background: var(--red);
+  position: absolute;
+  inset: 0;
+  top: 0;
+  left: 0;
+  margin-left: -240px;
+  border-radius: 999px;
+}
+
+.blue-ball {
+  height: 100dvh;
+  width: 480px;
+
+  background: var(--blue);
+  position: absolute;
+  inset: 0;
+  right: 0;
+  left: 0;
+  margin-right: -240px;
+  border-radius: 999px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+nav > span {
+  font-size: 16px;
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.as {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.blue-btn {
+  padding: 8px 4px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  background: #0021d1;
+}
+
+.red-btn {
+  padding: 8px 4px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  background: #0021d1;
+}
 /* Escreva a partir daqui */
+
+.btn {
+  padding: 8px 4px;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+  background: white;
+}
