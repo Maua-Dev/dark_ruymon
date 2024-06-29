@@ -2,7 +2,7 @@
 
 O Dev In The Dark é a primeira competição front-end da Dev. Community Mauá, inspirada no "Code in The Dark", uma competição mundialmente conhecida de HTML e CSS.
 
-Na competição, os competidores disputam para implementar um design de site com base apenas em uma captura de tela. O truque é que não são permitidas prévias dos resultados durante a implementação; ou seja, os participantes só poderão visualizar o editor de código. O vencedor será decidido por votos de jurados, com base em rubricas pré-estabelecidas. Além disso, o evento contará com coffee break e premiação para os vencedores.
+Na competição, os competidores disputam para implementar um design de site com base apenas em uma captura de tela. O truque é que não são permitidas prévias dos resultados durante a implementação; ou seja, os participantes só poderão visualizar o editor de código. O vencedor será decidido por votos de jurados, com base em rubricas pré-estabelecidas. Além disso, o evento contará com coffee break e premiação para os vencedores
 
 ## Competição:
 
