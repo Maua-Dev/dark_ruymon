@@ -31,29 +31,25 @@ body {
 }
 
 .red-ball {
-  height: 480dvh;
-  width: 480px;
+  height: 100dvh;
+  width: 50vw;
 
   background: var(--red);
   position: absolute;
-  inset: 0;
   top: 0;
   left: 0;
-  margin-left: -240px;
-  border-radius: 999px;
+  border-radius: 0 999px 999px 0;
 }
 
 .blue-ball {
   height: 100dvh;
-  width: 480px;
+  width: 50vw;
 
   background: var(--blue);
   position: absolute;
-  inset: 0;
   right: 0;
-  left: 0;
-  margin-right: -240px;
-  border-radius: 999px;
+  top: 0;
+  border-radius: 999px 0 0 999px;
 }
 
 main {
